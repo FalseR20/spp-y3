@@ -58,9 +58,7 @@ class Tasks {
         var maxCharArray = strMax.toCharArray();
         var minCharArray = strMin.toCharArray();
         for (int i = 0; i < strMin.length(); i++) {
-//            System.out.printf("Chars: %s and %s\n", Integer.toBinaryString(maxCharArray[i]), Integer.toBinaryString(minCharArray[i]));
             maxCharArray[i] ^= minCharArray[i];
-//            System.out.printf("Final: %s\n", Integer.toBinaryString(maxCharArray[i]));
         }
         var result = new String(maxCharArray);
         System.out.printf("Xored string: %s\n", result);
