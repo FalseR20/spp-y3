@@ -11,6 +11,7 @@ public class Program {
         }
 
         {
+            System.out.println("Removed wheels from one car and put on another");
             wheels[2].fix();
             var newCar = new Car(wheels);
             System.out.printf("New car is broken: %s\n", newCar.isBroken());

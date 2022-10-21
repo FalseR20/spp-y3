@@ -9,10 +9,11 @@ public class Wheel {
 
     public void pierce() {
         is_broken = true;
-        System.out.println("shhhhhhhhhhh");
+        System.out.println("shhhhhhhhhhh, wheel was pierced");
     }
 
     public void fix() {
+        System.out.println("Wheel was fixed");
         is_broken = false;
     }
 
