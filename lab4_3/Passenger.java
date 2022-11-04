@@ -20,24 +20,18 @@ public class Passenger {
         for (Train train : trains) {
             System.out.println(train);
         }
-        System.out.println("Choose a train number: ");
-        Integer chosenNumber = scanner.nextInt();
-        boolean trainIsNotFound = true;
-        Train chosenTrain = null;
-        for (int i = 0; i < trains.size() && trainIsNotFound; i++) {
-            if (trains.get(i).getNumber().equals(chosenNumber)) {
-                chosenTrain = trains.get(i);
-                chosenTrain.reserveSeat();
-                trainIsNotFound = false;
+        while (true) {
+            System.out.println("Choose a train number: ");
+            Integer chosenNumber = scanner.nextInt();
+            for (Train train : trains) {
+                if (train.getNumber().equals(chosenNumber)) {
+                    train.reserveSeat();
+                    Ticket ticket = new Ticket();
+                    ticket.setPrice(train.getPricePerSeat());
+                    ticket.setSeatNumber(train.getOccupiedSeatsAmount());
+                    return ticket;
+                }
             }
-        }
-        if (chosenTrain != null) {
-            Ticket ticket = new Ticket();
-            ticket.setPrice(chosenTrain.getPricePerSeat());
-            ticket.setSeatNumber(chosenTrain.getOccupiedSeatsAmount());
-            return ticket;
-        } else {
-            throw new RuntimeException("Train is not found!");
         }
     }
 }
