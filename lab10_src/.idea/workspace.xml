@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="571c74b3-802a-47c5-a2ac-244916b1965f" name="Changes" comment="refactor(lab10): common refactoring">
+      <change afterPath="$PROJECT_DIR$/../lab9_src/out/production/lab9_src/lab9_src/lab9_src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/spp-y3/lab8/lab8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../out/production/spp-y3/spp-y3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spp-y3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lab4/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/lab4/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lab4/insert.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/lab4/insert.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lab4/update.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/lab4/update.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="lab10" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NvIjy1VEP7Q50baETOIHDfxQZe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "lab10",
+    "last_opened_file_path": "/home/falser/study/spp-y3/lab10_src/src/main/java/com/example/lab4/Connector",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3862069",
+    "settings.editor.selected.configurable": "inlay.hints",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/example/lab4/Connector" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.lab4.HelloApplication" />
+      <module name="Lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="571c74b3-802a-47c5-a2ac-244916b1965f" name="Changes" comment="" />
+      <created>1680538267810</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680538267810</updated>
+      <workItem from="1680538268826" duration="121000" />
+      <workItem from="1680538402669" duration="42000" />
+      <workItem from="1680538460593" duration="35000" />
+      <workItem from="1680538502487" duration="541000" />
+      <workItem from="1680539055534" duration="93000" />
+      <workItem from="1680539604927" duration="463000" />
+      <workItem from="1680540130924" duration="882000" />
+      <workItem from="1680544104525" duration="50000" />
+      <workItem from="1680589280479" duration="1151000" />
+      <workItem from="1680591919180" duration="85000" />
+      <workItem from="1680711479361" duration="9181000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat(lab10): add base">
+      <created>1680538365533</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680538365533</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat(lab10): add connector and queries">
+      <created>1680591984583</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680591984583</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat(lab10): update dependencies">
+      <created>1680712278084</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680712278084</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat(lab10): update database">
+      <created>1680713135223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680713135223</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat(lab10): add insert and delete">
+      <created>1680718329839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680718329839</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat(lab10): add update">
+      <created>1680720120475</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680720120475</updated>
+    </task>
+    <task id="LOCAL-00007" summary="refactor(lab10): common refactoring">
+      <created>1680720823508</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680720823508</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="lab10" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(lab10): add base" />
+    <MESSAGE value="feat(lab10): add connector and queries" />
+    <MESSAGE value="feat(lab10): update dependencies" />
+    <MESSAGE value="feat(lab10): update database" />
+    <MESSAGE value="feat(lab10): add insert and delete" />
+    <MESSAGE value="feat(lab10): add update" />
+    <MESSAGE value="refactor(lab10): common refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor(lab10): common refactoring" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/lab4/Controllers/UpDateController.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0"
+            prefWidth="518.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.lab4.Controllers.UpDateController">
+    <AnchorPane layoutX="126.0" layoutY="14.0" prefHeight="389.0" prefWidth="222.0">
+        <ComboBox fx:id="computerComboBox" layoutY="194.0" prefHeight="24.0" prefWidth="171.0"
+                  promptText="computer"/>
+        <ComboBox fx:id="userComboBox" layoutY="146.0" prefHeight="24.0" prefWidth="171.0" promptText="user"/>
+        <Button fx:id="buttonOk" layoutX="35.0" layoutY="321.0" mnemonicParsing="false"
+                onAction="#onClickUpdate" prefHeight="24.0" prefWidth="99.0" text="ok"/>
+    </AnchorPane>
+</AnchorPane>
