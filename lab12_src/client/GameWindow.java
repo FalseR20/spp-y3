@@ -8,6 +8,7 @@ public class GameWindow extends JFrame {
     public final int Size = 3;
     private GameButton[][] m_buttons;
     private JLabel m_message;
+    private int nMoves = Size * Size + 1;
 
     public GameWindow(OutputStream socketOut) {
         super("Game Window");
@@ -45,6 +46,8 @@ public class GameWindow extends JFrame {
 
     public void load(Messages.Board boardMessage) {
         boolean isActive = boardMessage.move == boardMessage.your_type;
+        nMoves--;
+        System.out.println(nMoves);
 
         if (isActive) {
             m_message.setText("Ваша фигура: " + boardMessage.your_type + ". Ваш ход");
@@ -68,6 +71,8 @@ public class GameWindow extends JFrame {
             else {
                 m_message.setText("Конец игры. Вы проиграли");
             }
+        } else if (nMoves == 0) {
+            m_message.setText("Конец игры. Ничья");
         }
     }
 }
