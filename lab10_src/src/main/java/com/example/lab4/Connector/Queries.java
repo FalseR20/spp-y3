@@ -10,6 +10,8 @@ public class Queries {
             "\n";
     static final String SELECT_COMPUTERS = "SELECT name FROM computer;";
     static final String SELECT_USERS = "SELECT name FROM user;";
+    static final String SELECT_ROOMS = "SELECT name FROM room;";
+    static final String SELECT_ROLES = "SELECT name FROM role;";
     static final String INSERT_SESSION = "INSERT INTO session (user_id, computer_id)\n" +
             "VALUES ((SELECT user.id FROM user WHERE user.name = ?),\n" +
             "        (SELECT computer.id FROM computer WHERE computer.name = ?));";

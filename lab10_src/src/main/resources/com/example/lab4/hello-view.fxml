@@ -23,4 +23,14 @@
             prefHeight="34.0" prefWidth="114.0" text="Delete"/>
     <Button fx:id="Refresh" layoutX="815.0" layoutY="337.0" mnemonicParsing="false" onAction="#onClickRefresh"
             prefHeight="34.0" prefWidth="114.0" text="Refresh"/>
+
+    <ComboBox fx:id="roomFilterComboBox" layoutX="10" layoutY="550.0" prefHeight="24.0" prefWidth="145.0"
+              promptText="room" onAction="#onClickRefresh"/>
+    <ComboBox fx:id="computerFilterComboBox" layoutX="160" layoutY="550.0" prefHeight="24.0" prefWidth="145.0"
+              promptText="computer" onAction="#onClickRefresh"/>
+    <ComboBox fx:id="userFilterComboBox" layoutX="460" layoutY="550.0" prefHeight="24.0" prefWidth="145.0"
+              promptText="user" onAction="#onClickRefresh"/>
+    <ComboBox fx:id="roleFilterComboBox" layoutX="610" layoutY="550.0" prefHeight="24.0" prefWidth="145.0"
+              promptText="role" onAction="#onClickRefresh"/>
+
 </AnchorPane>

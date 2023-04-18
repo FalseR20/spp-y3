@@ -47,6 +47,14 @@ public class DBConnector {
         return getNameOf(SELECT_USERS);
     }
 
+    public static List<String> getAllRooms() throws SQLException {
+        return getNameOf(SELECT_ROOMS);
+    }
+
+    public static List<String> getAllRoles() throws SQLException {
+        return getNameOf(SELECT_ROLES);
+    }
+
     private static List<String> getNameOf(String selectComputer) throws SQLException {
         List<String> list = new ArrayList<>();
         ResultSet resultSet = connect().createStatement().executeQuery(selectComputer);

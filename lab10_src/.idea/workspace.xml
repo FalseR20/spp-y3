@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="571c74b3-802a-47c5-a2ac-244916b1965f" name="Changes" comment="refactor(lab10): common refactoring">
-      <change afterPath="$PROJECT_DIR$/../lab9_src/out/production/lab9_src/lab9_src/lab9_src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/spp-y3/lab8/lab8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../out/production/spp-y3/spp-y3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spp-y3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lab4/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/lab4/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lab4/insert.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/lab4/insert.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/lab4/update.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/lab4/update.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab4/Connector/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab4/Connector/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab4/Connector/Queries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab4/Connector/Queries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab4/Controllers/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab4/Controllers/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/lab4/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/lab4/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/lab4/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/lab4/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,34 +42,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "lab10",
-    "last_opened_file_path": "/home/falser/study/spp-y3/lab10_src/src/main/java/com/example/lab4/Connector",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3862069",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/falser/study/spp-y3/lab11_src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3862069&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlite"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlite&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/example/lab4/Connector" />
@@ -115,6 +116,12 @@
       <workItem from="1680589280479" duration="1151000" />
       <workItem from="1680591919180" duration="85000" />
       <workItem from="1680711479361" duration="9263000" />
+      <workItem from="1681481858386" duration="1073000" />
+      <workItem from="1681804969750" duration="128000" />
+      <workItem from="1681805148556" duration="76000" />
+      <workItem from="1681805278434" duration="77000" />
+      <workItem from="1681806820357" duration="26000" />
+      <workItem from="1681807194866" duration="3985000" />
     </task>
     <task id="LOCAL-00001" summary="feat(lab10): add base">
       <created>1680538365533</created>

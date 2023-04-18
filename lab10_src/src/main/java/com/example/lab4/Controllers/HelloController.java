@@ -8,6 +8,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -37,6 +38,14 @@ public class HelloController {
     @FXML
     public Button Refresh;
     @FXML
+    public ComboBox roomFilterComboBox;
+    @FXML
+    public ComboBox computerFilterComboBox;
+    @FXML
+    public ComboBox userFilterComboBox;
+    @FXML
+    public ComboBox roleFilterComboBox;
+    @FXML
     private TableColumn<Session, String> roomColumn;
     @FXML
     private TableColumn<Session, String> computerColumn;
@@ -51,7 +60,7 @@ public class HelloController {
     }
 
     @FXML
-    void initialize() {
+    void initialize() throws SQLException {
         try {
             listview.addAll(DBConnector.connection());
             for (Session session : listview) {
@@ -81,11 +90,49 @@ public class HelloController {
                 role = newVal.getRole();
             }
         });
+
+        ObservableList<String> computersList = FXCollections.observableArrayList(DBConnector.getAllComputers());
+        computersList.add("computer");
+        computerFilterComboBox.setItems(computersList);
+        computerFilterComboBox.setValue("computer");
+
+        ObservableList<String> usersList = FXCollections.observableArrayList(DBConnector.getAllUsers());
+        usersList.add("user");
+        userFilterComboBox.setItems(usersList);
+        userFilterComboBox.setValue("user");
+
+        ObservableList<String> roomsList = FXCollections.observableArrayList(DBConnector.getAllRooms());
+        roomsList.add("room");
+        roomFilterComboBox.setItems(roomsList);
+        roomFilterComboBox.setValue("room");
+
+        ObservableList<String> rolesList = FXCollections.observableArrayList(DBConnector.getAllRoles());
+        rolesList.add("role");
+        roleFilterComboBox.setItems(rolesList);
+        roleFilterComboBox.setValue("role");
+
     }
+
 
     public void onClickRefresh() throws SQLException {
         listview.clear();
         listview.addAll(DBConnector.connection());
+        String computerFilter = (String) computerFilterComboBox.getValue();
+        if (!computerFilter.equals("computer")) {
+            listview.removeIf(session -> !session.getComputer().equals(computerFilter));
+        }
+        String userFilter = (String) userFilterComboBox.getValue();
+        if (!userFilter.equals("user")) {
+            listview.removeIf(session -> !session.getUser().equals(userFilter));
+        }
+        String roomFilter = (String) roomFilterComboBox.getValue();
+        if (!roomFilter.equals("room")) {
+            listview.removeIf(session -> !session.getRoom().equals(roomFilter));
+        }
+        String roleFilter = (String) roleFilterComboBox.getValue();
+        if (!roleFilter.equals("role")) {
+            listview.removeIf(session -> !session.getRole().equals(roleFilter));
+        }
         table.setItems(listview);
         table.getSortOrder().add(roomColumn);
     }
